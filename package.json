@@ -4,6 +4,7 @@
   "description": "Place to buy & sell home made stuff",
   "author": "Krishna K Maddula",
   "scripts": {
+    "prestart": "babel-node tools/start-message.js",
     "start": "babel-node tools/server.js"
   },
   "dependencies": {
