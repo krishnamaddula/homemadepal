@@ -5,7 +5,8 @@
   "author": "Krishna K Maddula",
   "scripts": {
     "prestart": "babel-node tools/start-message.js",
-    "start": "babel-node tools/server.js"
+    "start": "babel-node tools/server.js",
+    "lint":"node_modules/.bin/esw webpack.config.* src tools"
   },
   "dependencies": {
     "babel-polyfill": "6.8.0",
